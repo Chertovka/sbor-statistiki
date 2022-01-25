@@ -29,30 +29,4 @@
         </table>
     @endif
 
-{{--    <p class="text-right"><a href="{{route('answer.add')}}">Добавить ответы</a></p>--}}
-
-{{--    @if ($answers ?? '')--}}
-{{--        <table class="table table-striped">--}}
-{{--            <thead>--}}
-{{--            <tr>--}}
-{{--                <th>Ответ 1 </th>--}}
-{{--                <th>Ответ 2 </th>--}}
-{{--                <th>Ответ 3 </th>--}}
-{{--            </tr>--}}
-{{--            </thead>--}}
-{{--            <tbody>--}}
-{{--            @foreach ($answers as $answer)--}}
-{{--                <tr>--}}
-{{--                    <td><h3>{{$answer->answer}}</h3></td>--}}
-{{--                    <td>--}}
-{{--                        <a href="{{route('answer.edit', ['answer'=>$answer->id])}}">Изменить</a>--}}
-{{--                    </td>--}}
-{{--                    <td>--}}
-{{--                        <a href="{{route('answer.delete', ['question'=>$answer->id])}}">Удалить</a>--}}
-{{--                    </td>--}}
-{{--                </tr>--}}
-{{--            @endforeach--}}
-{{--            </tbody>--}}
-{{--        </table>--}}
-{{--    @endif--}}
 @endsection
